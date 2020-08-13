@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    z-index: 20;
+}
+header{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+}
+.vid-big{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 5;
+}
+.nav-area{
+    background: rgba(0, 0, 0, 0.5);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+}
+.logo{
+    margin: 10px 50px;
+    height: 60px;
+    float: left;
+    color: greenyellow;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+    z-index: 20;
+}
+.menu-area{
+    float: right;
+    list-style: none;
+    margin: 20px;
+    z-index: 20;
+}
+.menu-area li{
+    display: inline-block;
+    margin: 0 5px;
+    z-index: 20;
+}
+.menu-area li a{
+    text-decoration: none;
+    color: greenyellow;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    z-index: 20;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 20;
+}
+.banner-text h2{
+    color: greenyellow;
+    font-size: 55px;
+    margin: 0;
+    z-index: 20;
+}
+.banner-text p{
+    color: greenyellow;
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+    z-index: 20;
+}
+.btn{
+    display: inline-block;
+    margin-top: 5%;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid greenyellow;
+    padding: 10px 25px;
+    color: greenyellow;
+    border-radius: 25px;
+    z-index: 20;
+}
+.foot{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    height: 1cm;
+    position: fixed;
+    z-index: 20;
+}
